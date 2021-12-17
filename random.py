@@ -116,5 +116,34 @@ def god_picker():
 		elif choice == 5:
 			print(f"Your random Jungle God is {random.choice(Assasins + Warriors)}.")
 			go_again = input("Would you like to pick again? (y/n) ")
+			
+#def site_scraper():
+	#import requests
+	#from bs4 import BeautifulSoup
+	#import random
+	
+	#def scrapeWikiArticle(url)
+		#response = requests.get(
+			#url = url,
+			#)
+
+		#soup = BeautifulSoup(response.content, "html.parser")
+
+		#title = soup.find(id="firstHeading")
+		#print(title.content)
+
+		#alllinks = soup.find(id="bodyContent").find_all("a")
+		#random.shuffle(alllinks)
+		#linkToScrape = 0
+
+		#for link in alllinks:
+			#if link["href"].find("/wiki/") == -1:
+				#continue
+
+			#linkToScrape = link
+			#break
+
+		#scrapeWikiArticle("https://en.wikipedia.org" + linkToScrape["href"])
+	#scrapeWikiArticle("html://en.wikipedia.org/wiki/Web_scraping")
 
 user_choice()
